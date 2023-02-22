@@ -9,28 +9,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap" rel="stylesheet">
+    
+  <link rel="stylesheet" href="style.css">
 
-  <Style>
-    body {
-      margin: 0;
-      padding: 0;
-    }
-
-    #header {
-      width: 100%;
-      height: 100px;
-      background: #303030;
-    }
-    #header div a {
-      font-family: 'Inter';
-      font-style: normal;
-      font-weight: 600;
-      font-size: 25px;
-      line-height: 30px;
-      color: #FFFFFF;
-      text-decoration: none;
-    }
-  </Style>
 </head>
 <body>
   <nav id="header">
@@ -41,5 +22,48 @@
     </div>
     <button>Login</button>
   </nav>
+  <section>
+    <header>
+      <h1>Bootcamp DNC</h1>
+      <h2>Esse será um evento exclusivo para todos os alunos <br>
+          da <b>DNC</b>, que querem <span class="reverse">acelerar a carreira</span> com uma <br>
+          semana intensiva de conteúdo de mercado entre  <br>
+          <span class="reverse">BACK-END, FRONT-END & BANCO DE DADOS.</span></h2>
+    </header>
+    <form action="">
+      <div class="formGroup">
+        <label>Nome:</label>
+        <Input type="text" placeholder="Insira seu nome aqui...">
+      </div>
+      <div class="formGroup">
+        <label>Sobrenome:</label>
+        <Input type="text" placeholder="Insira seu sobrenome aqui...">
+      </div>
+      <div class="formGroup">
+        <label>Área de Interesse:</label>
+        <div class="checkboxItems">
+          <input type="checkbox" value="front">
+          <label>Front-End</label>
+          <input type="checkbox" value="back">
+          <label>Back-End</label>
+          <input type="checkbox" value="bd">
+          <label>Banco de Dados</label>
+        </div>
+      </div>
+      <div class="formGroup">
+        <label>E-mail:</label>
+        <Input type="email" placeholder="Insira seu E-mail aqui...">
+      </div>
+      <div class="formGroup">
+        <label>Telefone:</label>
+        <Input type="text" placeholder="(99) 99999-9999">
+      </div>
+      <div class="formGroup">
+        <label>Insira uma frase criativa aqui:</label>
+        <Input type="text" placeholder="Qual frase criativa você gostaria de falar? :)">
+      </div>
+      <input type="submit" value="Cadastrar">
+    </form>
+  </section>
 </body>
 </html>
