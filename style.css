@@ -259,4 +259,12 @@
   .checkboxItems {
     font-size: 17px;
   }
+  /*footer*/
+  footer .line1 {
+    flex-direction: column;
+  }
+  footer .address {
+    width: 95%;
+    margin-bottom: 25px;
+  }
 }
